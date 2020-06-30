@@ -21,7 +21,7 @@ Este modulo tem o intuito de importar um código externo através de uma url par
 Para rodar um script no console, basta usar:
 ```js
 const modulink = require('./modulink.js')
-modulink('https://github.com/FabioSmuu/modulink/blob/master/exemplo.js')
+modulink('https://github.com/FabioSmuu/modulink/blob/master/exemplo/script.js')
 ```
 
 
