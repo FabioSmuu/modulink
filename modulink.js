@@ -5,10 +5,10 @@ module.exports = async (url) => {
 	const https = require('https')
 
 	https.get(url, res => {
-		try {
-			res.setEncoding('utf8')
+		res.setEncoding('utf8')
 
-			res.on('data', data => {
+		res.on('data', data => {
+			try {
 				eval(
 					Buffer.from(
 						data.match(/(\[script\])(.*)(\[\/script\])/gis)[0]
@@ -17,10 +17,10 @@ module.exports = async (url) => {
 					)
 					.toString('utf-8')
 				)
-			})
-			
-			return res
-		}
-		catch {}
+			}
+			catch {}
+		})
+		
+		return res
 	})
 }
