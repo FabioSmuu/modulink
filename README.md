@@ -12,7 +12,7 @@ Este modulo tem o intuito de importar um código externo através de uma url par
 - Primeiro, crie sua index.js com o código que deseja rodar através de uma url.
 - Transforme seu código em base64.
 - Insira a tag **[script]** no início do código e **[/script]** no final.
-- Resultado: [exemplo.js](/exemplo.js).
+- Resultado: [exemplo.js](/exemplo/script.js).
 
 
 ### Uso do modulo:
