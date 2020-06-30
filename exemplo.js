@@ -1,0 +1,3 @@
+[script]
+ZnVuY3Rpb24gZXhlbXBsbyhtc2cpIHsNCgljb25zb2xlLmxvZyhtc2cpDQp9DQoNCmV4ZW1wbG8oJ09sw6EgTXVuZG8hJyk
+[/script]
