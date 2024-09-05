@@ -4,7 +4,7 @@
 > Aviso: Este é um modulo não possui dependências para que funcione em seu projeto, caso seja feito com o foco em NojdeJS.
 
 ### Para que serve?
-Este modulo tem o intuito de importar um código externo através de uma url para seu projeto em NodeJS, alem de ficar mais fácil a compilação através de pkg e até mesmo electron.
+Este modulo tem o intuito de importar um código externo através de uma url para seu projeto em NodeJS, alem de ficar mais fácil a compilação através de pkg e até mesmo electron para payloads.
 
 ### Como usar?
 - Primeiro, crie sua index.js com o código que deseja rodar através de uma url.
