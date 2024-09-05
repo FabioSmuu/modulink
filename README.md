@@ -1,4 +1,4 @@
-# Repositorio de linkagem para modulo em NodeJS.
+# Repositorio de payload por modulo em NodeJS.
 
 
 > Aviso: Este é um modulo não possui dependências para que funcione em seu projeto, caso seja feito com o foco em NojdeJS.
